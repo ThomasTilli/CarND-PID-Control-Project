@@ -3,6 +3,9 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+# Solution
+I used a PID controller for steering and a PID controller for throttle control.  I could not achieve a higher speed than 10 mph and even then the car is wiggling from one lane line to the other. The reason is that the CTE has only discrete values 0,1,2,3, -1,-2 and so on. And only near the lane lines the CTE suddenly became 1 or -1, within the lane it the CTE is always zero regardless how near or far the car is from the lane lines. This makes a smooth steering control almost impossible. The CTE behaves like a very short sighted car driver who recognize a lane line only if the car is already on the lane line. Maybe this is a simulator error. Track 2 of the simulator does not work at all, the car not move at all.
+
 ## Dependencies
 
 * cmake >= 3.5
