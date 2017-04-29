@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/tom/selfdriving car/CarND-PID-Control-Project",
+  "command": "/usr/bin/g++     -g3 -gdwarf-2   -std=c++11 -o CMakeFiles/pid.dir/src/PID.cpp.o -c \"/home/tom/selfdriving car/CarND-PID-Control-Project/src/PID.cpp\"",
+  "file": "/home/tom/selfdriving car/CarND-PID-Control-Project/src/PID.cpp"
+},
+{
+  "directory": "/home/tom/selfdriving car/CarND-PID-Control-Project",
+  "command": "/usr/bin/g++     -g3 -gdwarf-2   -std=c++11 -o CMakeFiles/pid.dir/src/main.cpp.o -c \"/home/tom/selfdriving car/CarND-PID-Control-Project/src/main.cpp\"",
+  "file": "/home/tom/selfdriving car/CarND-PID-Control-Project/src/main.cpp"
+}
+]
